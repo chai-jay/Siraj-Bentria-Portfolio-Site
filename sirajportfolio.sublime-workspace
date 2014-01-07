@@ -1,0 +1,326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gallon",
+				"gallon_price"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"border",
+				"border-left-style"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"alphabetical",
+				"alphabetical"
+			],
+			[
+				"isnu",
+				"is_numeric"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"vari",
+				"vari"
+			],
+			[
+				"var",
+				"var"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 349.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Snippet: php",
+				"Snippet: phpheader"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"view.settings().get('bold_folder_labels')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Chai/Desktop/cool-kitten/css/grid.css",
+		"/Users/Chai/Desktop/cool-kitten/css/normalize.css",
+		"/Users/Chai/Desktop/cool-kitten/css/style.css",
+		"/Users/Chai/Desktop/cool-kitten/index.html",
+		"/Volumes/CHAI/Portfolio/diabACE (MAMP stack req)/treatmenttool.php",
+		"/Volumes/CHAI/Portfolio/diabACE (MAMP stack req)/underconstruction.php",
+		"/Volumes/CHAI/Portfolio/diabACE (MAMP stack req)/index.php",
+		"/Applications/MAMP/htdocs/Learning & Practice/Learning.sublime-project",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/css/constructionstyle.css",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/index.php",
+		"/Users/Chai/Desktop/BitTorrent-4hourchef-audiobook-Free/98_Get_4-Hour-Chef-Hardcover.html",
+		"/Applications/MAMP/htdocs/Learning & Practice/Chapter 5/fifth.php",
+		"/Applications/MAMP/bin/php/php5.4.10/conf/php.ini",
+		"/Applications/MAMP/conf/my.cnf",
+		"/Applications/MAMP/bin/phpMyAdmin/config.inc.php",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/css/style.css",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/css/960_16_col.css",
+		"/Users/Chai/Documents/webdev/Ascendant Global Heathcare, LLC/css/aghstyle.css",
+		"/Users/Chai/Documents/webdev/Ascendant Global Heathcare, LLC/aghindex.html",
+		"/Users/Chai/Documents/webdev/Practice/creatingmarkup.html",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/testpage2.php",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/css/960_12_col.css",
+		"/Users/Chai/Documents/webdev/Practice/css/style.css",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/testpage.php",
+		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/linkstyle.sublime-snippet",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/style.css",
+		"/Applications/MAMP/htdocs/Learning & Practice/Chapter 4/Chapter 5/fifth.php",
+		"/Applications/MAMP/htdocs/Learning & Practice/Chapter 4/fourth.php",
+		"/Users/Chai/Desktop/Projects/Learning/Jing Chai.txt",
+		"/Users/Chai/Documents/Others/Spore/readme",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/thirdphp2.php",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/thirdphp4.php",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/includes/header.html",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/thirdphp3.php",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/index.html",
+		"/Applications/MAMP/htdocs/Learning & Practice/secondphp.php",
+		"/Applications/MAMP/htdocs/Learning & Practice/secondhtml.html",
+		"/Applications/MAMP/htdocs/Learning & Practice/secondphp2.php",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/thirdhtml.html",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/thirdphp.php",
+		"/Applications/MAMP/htdocs/thirdhtml.html",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/header.html",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/index.php",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/footer.html",
+		"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites/style.css",
+		"/Applications/MAMP/htdocs/secondphp2.php",
+		"/Applications/MAMP/htdocs/secondhtml.html",
+		"/Applications/MAMP/htdocs/secondphp.php",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/teststyle.css",
+		"/Applications/MAMP/htdocs/Ascendant Global Healthcare/testpage.html",
+		"/Users/Chai/Desktop/MainGit/Diabase/Chai/Chaibranch",
+		"/Users/Chai/Desktop/MainGit/Diabase/README.md",
+		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/li.sublime-snippet",
+		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/phpheader.sublime-snippet",
+		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/cssheader.sublime-snippet",
+		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/htmlheader.sublime-snippet",
+		"/Applications/MAMP/htdocs/first.php",
+		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/League of Legends.app/Contents/LOL/RADS/projects/lol_air_client/releases/0.0.0.77/deploy/bin/preferences/global/global.properties",
+		"/Applications/League of Legends.app/Contents/LOL/RADS/projects/lol_air_client/releases/0.0.0.77/deploy/bin/lol.properties",
+		"/Applications/MAMP/htdocs/second.php",
+		"/Applications/MAMP/htdocs/phpinfo.php",
+		"/Applications/MAMP/htdocs/mysqli_test.php",
+		"/Users/Chai/restore_root_privileges.sql",
+		"/Applications/MAMP/bin/mamp/index.php",
+		"/Applications/MAMP/bin/mamp/xcache-admin/config.php",
+		"/Applications/MAMP/bin/mamp/phpinfo.php",
+		"/Applications/MAMP/bin/mamp/phpmyadmin.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/Learning & Practice/Chapter 5",
+			"/Applications/MAMP/htdocs/Learning & Practice/Third Chapter - Creating Dynamic Web Sites"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<h3",
+			"Credits",
+			"tiff",
+			"h2",
+			"jpg",
+			"what",
+			"omega",
+			"content",
+			"Parallax Scrolling",
+			"logo.png",
+			"omega",
+			"pdo_mysql",
+			"key_buffer",
+			"fine tuning",
+			"ref",
+			"<br />",
+			"urinesugar",
+			"2013",
+			"by",
+			"DATE"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sirajportfolio.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Chapter 4/fourth.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 116.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
