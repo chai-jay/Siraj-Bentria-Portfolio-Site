@@ -1,1 +1,9 @@
-Red: #
+Red: #EE335C
+Blue:#4B72EE
+LightBlue/Green:#B4E6E2
+Yellow:#F6E610
+
+Fonts
+Kenzo Regular 18 pt  - for the four boxes
+Kenzo Regular 24 pt - for the some things i’ve design part
+Kenzo Regular 44 pt, no color - only outline of 2 pt. color: Blue
