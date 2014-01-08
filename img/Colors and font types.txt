@@ -1,9 +1,21 @@
+Header:
 Red: #EE335C
 Blue:#4B72EE
 LightBlue/Green:#B4E6E2
 Yellow:#F6E610
+“design”: Charrington 24 pt Black
+“SOME THINGS I’VE DESIGNED”, etc: Kenzo 18 pt Black
 
-Fonts
-Kenzo Regular 18 pt  - for the four boxes
-Kenzo Regular 24 pt - for the some things i’ve design part
-Kenzo Regular 44 pt, no color - only outline of 2 pt. color: Blue
+
+Some things I’ve designed:
+“SOME THINGS I’VE DESIGNED”: Kenzo Regular 24 pt Black
+
+
+A few of my fav things:
+“A FEW OF MY FAV THINGS”: Kenzo Regular 44 pt, no color - only outline of 2 pt. color: Blue #Hexcode
+
+
+Who am I?:
+
+
+Still don’t think I’m cool:
