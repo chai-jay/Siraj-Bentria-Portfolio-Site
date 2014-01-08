@@ -9,7 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/text.css" />
 	<link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/js.js"></script>
 	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
@@ -18,21 +19,22 @@
 </head>
 
 <body>
+
 <!--Header start-->
 <header>
 
 	<!--banner start-->
 	<div class="banner">
-		<h1 class="logo">Siraj Bentria</h1>
-		<p class="logo">design</p>
+		<h1 class="negindent">Siraj Bentria</h1>
+		<p id="designword">design</p>
 	</div>
 	<!--banner end-->
 	
 	<!--banner nav buttons start-->
-	<div class="bannerbutton" id="design"><a href="">Some Things I've Designed</a></div>
-	<div class="bannerbutton" id="fav"><a href="">A Few of My Fav Things</a></div>
-	<div class="bannerbutton" id="whoami"><a href="">Who <div id="am">Am</div> I?</a></div>
-	<div class="bannerbutton" id="cool"><a href="">Still Don't Think I'm Cool</a></div>
+	<div class="bannerbutton" id="designbutton"><a href="">Some Things I've Designed</a></div>
+	<div class="bannerbutton" id="favbutton"><a href="">A Few of My Fav Things</a></div>
+	<div class="bannerbutton" id="whoamibutton"><a href="">Who <div id="am">Am</div> I?</a></div>
+	<div class="bannerbutton" id="coolbutton"><a href="">Still Don't Think I'm Cool</a></div>
 	<!--banner nav buttons end-->
 
 </header>
@@ -41,34 +43,45 @@
 <!--Nav start-->
 <nav>
 	<ul> 
-		<li><a href="">Some Things I've Designed</a><!--Negative indent text and decide to use div or put a class on list element to style into colored boxes--></li>
-		<li><a href="">A Few of My Fav Things</a></li>
-		<li><a href="">Who Am I?</a></li>
-		<li><a href="">Still Don't Think I'm Cool</a></li>
+		<li><a href=""><div class="navbutton">Some Things I've Designed</div></a></li>
+		<li><a href=""><div class="navbutton">A Few of My Fav Things</div></a></li>
+		<li><a href=""><div class="navbutton">Who Am I?</div></a></li>
+		<li><a href=""><div class="navbutton">Still Don't Think I'm Cool</div></a></li>
 	</ul>
 </nav>
 <!--Nav end-->
 
 <!--Slide 1 start-->
-<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+<section class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 	<h2>Some Things I've Designed:</h2>
-	div*4>a>img (Look at zen-themes.com)
-</div>
+	<div class="designcontainer">
+		<a href=""><div class="designexamples" id="diabace">Diabace</div></a>
+		<a href=""><div class="designexamples" id="eyebrows">eyebrows</div></a>
+		<a href=""><div class="designexamples" id="edison">edison resources</div></a>
+		<a href=""><div class="designexamples" id="ironman">ironman</div></a>
+	</div>
+	<div class="designcontainer">	
+		<a href=""><div class="designexamples" id="logos1">logos</div></a>
+		<a href=""><div class="designexamples" id="logos2">logos</div></a>
+		<a href=""><div class="designexamples" id="logos3">logos</div></a>
+		<a href=""><div class="designexamples" id="icons">icons</div></a>
+	</div>
+</section>
 <!--Slide 1 end-->
 
 <!--Slide 2 start-->
-<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+<section class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
 	<h2>A Few of My Fav Things:</h2>
 	<img src="img/fav1.jpg" alt="Tangier, Morrocco" id="fav1">
 	<img src="img/fav2.jpg" alt="Art history" id="fav2">
 	<img src="img/fav3.jpg" alt="Tea and Foods" id="fav3">
 	<img src="img/fav4.jpg" alt="Minimalist design" id="fav4">
 	<img src="img/fav5.jpg" alt="Environmental planning and design" id="fav5">
-</div>
+</section>
 <!--Slide 2 end-->
 
 <!--Slide 3 start-->
-<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+<section class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
 	<h2>Who am I?</h2><!--Make hidden because will be done with background image-->
 	<ol type="a"><!--Make hidden because will be done with background image-->
 		<li>Siraj Bentria</li>
@@ -78,11 +91,11 @@
 	</ol>
 	<img src="img/siraj.jpg" alt="Siraj Bentria is an awesome dude.">
 	<h3 class="dee"><div id="doo">d</div>.</h3><h3 class="above">All of the Above</h3>
-</div>
+</section>
 <!--Slide 3 end-->
 
 <!--Slide 4 start-->
-<div class="slide" id="slide4" data-slide="1" data-stellar-background-ratio="0.5">
+<section class="slide" id="slide4" data-slide="1" data-stellar-background-ratio="0.5">
 	<h2>Still Don't Think I'm Cool</h2>
 	<div class="wrapper">
 		<a href=""><img src="img/facebook.png" alt="Facebook link"></a>
@@ -90,12 +103,16 @@
 		<a href=""><img src="" alt=""></a>
 	</div>
 	<p class="followup">...let's connect!</p>
-</div>
+</section>
 <!--Slide 4 end-->
 
 <footer>
 <!--Legal stuff-->
 </footer>
+
+<script>
+//Add code to put logo onto active page
+</script>
 
 </body>
 

@@ -1,8 +1,8 @@
 Header:
-Red: #EE335C
-Blue:#4B72EE
-LightBlue/Green:#B4E6E2
-Yellow:#F6E610
+Red: #EE335C or rgb(238, 51, 92)
+Blue:#4B72EE or rgb(75, 114, 238)
+LightBlue/Green:#B4E6E2 or rgb(180, 230, 226)
+Yellow:#F6E610 or rgb(246, 230, 16)
 “design”: Charrington 24 pt Black
 “SOME THINGS I’VE DESIGNED”, etc: Kenzo 18 pt Black
 

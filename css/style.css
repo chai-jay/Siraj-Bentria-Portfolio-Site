@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'kenzoregular';
+    src: url('../font/kenzo_regular-webfont.eot');
+    src: url('../font/kenzo_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/kenzo_regular-webfont.woff') format('woff'),
+         url('../font/kenzo_regular-webfont.ttf') format('truetype'),
+         url('../font/kenzo_regular-webfont.svg#kenzoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'charringtonregular';
+    src: url('../font/charring-webfont.eot');
+    src: url('../font/charring-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/charring-webfont.woff') format('woff'),
+         url('../font/charring-webfont.ttf') format('truetype'),
+         url('../font/charring-webfont.svg#charringtonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.negindent {
+    text-indent: -99999px;
+}
+
+/*
+******************
+* =Header
+******************
+*/
+header {
+    background: url('../img/header/whitebackgroundforfirstpart.png');
+    width: 100%;
+    height: 515px;
+}
+
+.banner {
+    width: 33.333%;
+    margin: 0 auto; /*1st=top/bot 2nd=left+right*/
+    padding: 70px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    background: url('../img/header/sirajblogoforweb.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover; /*Need to fiz the PNG file so it's the right size and centered*/
+}
+
+p#designword {
+    font-family: 'charringtonregular';
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+.bannerbutton {
+    width:25%;
+    height:30%;
+    float:left;
+    font-family: 'kenzoregular';
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.bannerbutton a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 37.5%;
+}
+
+#am {
+    display: inline;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+#designbutton {
+    background-color: #EE335C;
+}
+
+#favbutton {
+    background-color: #4B72EE;
+}
+
+#whoamibutton {
+    background-color: #B4E6E2;
+}
+
+#coolbutton {
+    background-color: #F6E610;
+}
+
+/*
+******************
+* =Navigation bar
+******************
+*/
+nav {
+    width: 100%;
+    position: fixed;
+    top: 2%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+}
+
+nav li {
+    float:left;
+    width: 25%;
+    display: inline;
+    margin: 0;
+    height: 25px;
+    text-indent: -99999px;
+}
+
+/*nav ul .navbutton {
+    display: inline;
+    width: 100%;
+    height: 25px;
+    text-indent: 0px;
+}*/
+
+nav ul li:first-child {
+    background: rgb(238, 51, 92);
+    background: rgba(238, 51, 92, 0.7);
+}
+
+nav ul li:nth-child(2) {
+    background: rgb(75, 114, 238);
+    background: rgba(75, 114, 238, 0.7);
+}
+
+nav ul li:nth-child(3) {
+    background: rgb(180, 230, 226);
+    background: rgba(180, 230, 226, 0.7);
+}
+
+nav ul li:nth-child(4) {
+    background: rgb(246, 230, 16);
+    background: rgba(246, 230, 16, 0.7);
+}
+
+nav .navbutton {
+    width: 100%;
+    height: 100%;
+}
+
+
