@@ -234,9 +234,9 @@ nav .navbutton {
 
 #slide1 {
     width: 100%;
-    height: 60%;
+    height: auto;
     background: url('../img/slide1/slide1bg.png');
-    clear: both;
+    overflow: hidden;
 }
 
 #slide1 h2 {
@@ -244,8 +244,9 @@ nav .navbutton {
     font-size: 1.8em;
     color: #EE335C;
     margin-left: 8%;
-    position: relative;
-    top: 75px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    text-decoration: underline;
 }
 
 #slide div {
@@ -253,17 +254,19 @@ nav .navbutton {
 }
 
 .designcontainer {
-    position: relative;
-    top: 90px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    clear: all;
+    overflow: hidden;
+}
+
+.designcontainer:last-child {
+    margin-bottom: 10%;
 }
 
 .designexamples {
     display: inline;
-    background-color: rgba(200, 200, 200, 0.6);
+    background-color: rgba(200, 200, 200, 0.5);
     width: 23%;
     height: 0px;
     padding-bottom: 25%;
@@ -341,7 +344,7 @@ nav .navbutton {
     margin-right: 3%;
 }
 
-#favlist {
+/*#favlist {
     float: left;
     overflow: hidden;
     height: 100%;
@@ -392,6 +395,10 @@ nav .navbutton {
     text-transform: uppercase;
     line-height: 95%;
     letter-spacing: -1px;
+}*/
+
+#favlist {
+    
 }
 
 /*
