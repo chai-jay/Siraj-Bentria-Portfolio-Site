@@ -36,7 +36,7 @@ header {
 }
 
 .banner {
-    width: 16%;
+    width: 33.333%;
     margin: 0 auto; /*1st=top/bot 2nd=left+right*/
     padding: 70px 0;
     text-align: center;
@@ -46,6 +46,8 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    height: auto;
 }
 
 p#designword {
