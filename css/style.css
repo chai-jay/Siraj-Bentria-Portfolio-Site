@@ -168,7 +168,7 @@ nav .navbutton {
 
 #slide1 {
     width: 100%;
-    height: 575px;
+    height: 60%;
     background: url('../img/slide1/slide1bg.png');
     clear: both;
 }
@@ -232,30 +232,56 @@ nav .navbutton {
     clear: both;
 }
 
-#slide2 div {
-    display: inline;
-}
+
 
 #whoami {
-    width: 33%;
-    height: 100%;
+    width: 100%;
 }
 
 #whoami img {
     width: 100%;
     height: auto;
-    z-index: 1;
-    float: left;
+    margin-top: -2%;
+    margin-bottom: -5%;
 }
 
-#smalllogo {
+/*
+******************
+* =Slide3
+******************
+*/
+
+#slide3 {
+    width: 100%;
+    height: auto;
+}
+
+#favlist {
 
 }
 
-#sirajphoto {
+#blackoutsunrise {
 
 }
 
-#above {
+#trackregular {
 
+}
+
+#lovelolinelight {
+
+}
+
+#canterboldstrips {
+
+}
+
+#loveloblack {
+
+}
+
+#onyxregular {
+    font-family: 'onyxregular';
+    font-size: 6em;
+    text-transform: uppercase;
 }
