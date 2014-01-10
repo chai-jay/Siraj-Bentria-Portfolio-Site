@@ -43,10 +43,11 @@ header {
 }
 
 .banner h1 {
-    background: url('../img/header/sirajblogoforweb.png') no-repeat;
-    width: 150px;
-    height: 150px;
-    background-size: cover; /*Need to fiz the PNG file so it's the right size and centered*/
+    background: url('../img/header/sblogoforwebfinal.png') no-repeat;
+    width: 308px;
+    height: 273px;
+    background-size: cover;
+    background-position: center; /*Need to fiz the PNG file so it's the right size and centered*/
 }
 
 p#designword {
