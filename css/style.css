@@ -42,12 +42,15 @@ header {
     text-align: center;
 }
 
+.banner h1 {
+    display: hidden;
+}
+
 .banner .logopic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
     height: auto;
+    margin: -40px auto;
 }
 
 p#designword {
@@ -152,4 +155,35 @@ nav .navbutton {
     height: 100%;
 }
 
+/*
+******************
+* =Slide1
+******************
+*/
 
+#slide1 {
+    width: 100%;
+    height: 535px;
+    background: url('../img/slide1/slide1bg.png');
+    clear: left;
+}
+
+#slide1 h2 {
+    font-family: 'kenzoregular';
+    font-size: 1.8em;
+    color: #EE335C;
+}
+
+#slide div {
+    display: inline;
+}
+
+.designcontainer {
+
+}
+
+.designexamples {
+    display: inline;
+}
+
+Ask Siraj if he wants to keep color order or change with the content.

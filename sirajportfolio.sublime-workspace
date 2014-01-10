@@ -79,7 +79,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4607,
+				"buffer_size": 4582,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +87,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 2973,
+				"buffer_size": 3329,
 				"line_ending": "Unix"
 			}
 		},
@@ -144,6 +144,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/cssdivider.sublime-snippet",
 		"/Users/Chai/Desktop/Siraj Bentria Portfolio Site/css/unsemantic-grid-responsive.css",
 		"/Users/Chai/Desktop/Siraj Bentria Portfolio Site/js/jquery.min.js",
 		"/Users/Chai/Documents/webdev/Responsive CSS Grid Unsemantic-Master/assets/stylesheets/demo.css",
@@ -249,6 +250,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"display: inline",
 			"<a href=\"\">",
 			"<div class=\"designexamples\">",
 			"<li>",
@@ -306,7 +308,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -315,26 +317,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4607,
+						"buffer_size": 4582,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2992,
-								2992
+								3255,
+								3255
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1044.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -343,15 +346,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2973,
+						"buffer_size": 3329,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								885,
-								885
+								3329,
+								3329
 							]
 						],
 						"settings":
@@ -361,10 +364,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3045.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -380,8 +383,8 @@
 						"selection":
 						[
 							[
-								190,
-								190
+								352,
+								352
 							]
 						],
 						"settings":
@@ -418,7 +421,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8586.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
