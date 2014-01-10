@@ -24,6 +24,10 @@
     text-indent: -99999px;
 }
 
+body {
+
+}
+
 /*
 ******************
 * =Header
@@ -32,7 +36,7 @@
 header {
     background: url('../img/header/whitebackgroundforfirstpart.png');
     width: 100%;
-    height: 515px;
+    height: auto;
 }
 
 .banner {
@@ -61,12 +65,13 @@ p#designword {
 
 .bannerbutton {
     width:25%;
-    height:30%;
-    float:left;
+    height:160px;
     font-family: 'kenzoregular';
     font-size: 1.5em;
     font-weight: 100;
     text-align: center;
+    display: inline;
+    float: left;
 }
 
 .bannerbutton a {
@@ -86,12 +91,12 @@ p#designword {
     background-color: #EE335C;
 }
 
-#favbutton {
-    background-color: #4B72EE;
-}
-
 #whoamibutton {
     background-color: #B4E6E2;
+}
+
+#favbutton {
+    background-color: #4B72EE;
 }
 
 #coolbutton {
@@ -136,13 +141,13 @@ nav ul li:first-child {
 }
 
 nav ul li:nth-child(2) {
-    background: rgb(75, 114, 238);
-    background: rgba(75, 114, 238, 0.7);
+    background: rgb(180, 230, 226);
+    background: rgba(180, 230, 226, 0.7);
 }
 
 nav ul li:nth-child(3) {
-    background: rgb(180, 230, 226);
-    background: rgba(180, 230, 226, 0.7);
+    background: rgb(75, 114, 238);
+    background: rgba(75, 114, 238, 0.7);
 }
 
 nav ul li:nth-child(4) {
@@ -163,7 +168,7 @@ nav .navbutton {
 
 #slide1 {
     width: 100%;
-    height: 535px;
+    height: 500px;
     background: url('../img/slide1/slide1bg.png');
     clear: left;
 }
@@ -172,6 +177,9 @@ nav .navbutton {
     font-family: 'kenzoregular';
     font-size: 1.8em;
     color: #EE335C;
+    margin-left: 8%;
+    position: relative;
+    top: 75px;
 }
 
 #slide div {
@@ -179,11 +187,32 @@ nav .navbutton {
 }
 
 .designcontainer {
-
+    position: relative;
+    top: 90px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: all;
 }
 
 .designexamples {
     display: inline;
+    background-color: rgba(200, 200, 200, 0.6);
+    width: 23%;
+    height: 0px;
+    padding-bottom: 25%;
+    float: left;
+    margin: 1% 1%;
+    text-align: center;
 }
 
-Ask Siraj if he wants to keep color order or change with the content.
+.designexamples a {
+    text-decoration: none;
+}
+
+.designname {
+    padding-top: 40%;
+    visibility: hidden;
+}
+
+

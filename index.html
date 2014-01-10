@@ -33,8 +33,8 @@
 	
 	<!--banner nav buttons start-->
 	<div class="bannerbutton" id="designbutton"><a href="">Some Things I've Designed</a></div>
-	<div class="bannerbutton" id="favbutton"><a href="">A Few of My Fav Things</a></div>
 	<div class="bannerbutton" id="whoamibutton"><a href="">Who <div id="am">Am</div> I?</a></div>
+	<div class="bannerbutton" id="favbutton"><a href="">A Few of My Fav Things</a></div>
 	<div class="bannerbutton" id="coolbutton"><a href="">Still Don't Think I'm Cool</a></div>
 	<!--banner nav buttons end-->
 
@@ -45,34 +45,34 @@
 <nav>
 	<ul> 
 		<li><a href=""><div class="navbutton">Some Things I've Designed</div></a></li>
-		<li><a href=""><div class="navbutton">A Few of My Fav Things</div></a></li>
 		<li><a href=""><div class="navbutton">Who Am I?</div></a></li>
+		<li><a href=""><div class="navbutton">A Few of My Fav Things</div></a></li>
 		<li><a href=""><div class="navbutton">Still Don't Think I'm Cool</div></a></li>
 	</ul>
 </nav>
 <!--Nav end-->
 
 <!--Slide 1 start-->
-<section class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 	<h2>Some Things I've Designed:</h2>
 	<div class="designcontainer">
-		<a href=""><div class="designexamples" id="diabace">Diabace</div></a>
-		<a href=""><div class="designexamples" id="eyebrows">eyebrows</div></a>
-		<a href=""><div class="designexamples" id="edison">edison resources</div></a>
-		<a href=""><div class="designexamples" id="ironman">ironman</div></a>
+		<a href=""><div class="designexamples" id="diabace"><div class="designname">Diabace</div></div></a>
+		<a href=""><div class="designexamples" id="eyebrows"><div class="designname">eyebrows</div></div></a>
+		<a href=""><div class="designexamples" id="edison"><div class="designname">edison resources</div></div></a>
+		<a href=""><div class="designexamples" id="ironman"><div class="designname">ironman</div></div></a>
 	</div>
 	<div class="designcontainer">	
-		<a href=""><div class="designexamples" id="logos1">logos</div></a>
-		<a href=""><div class="designexamples" id="logos2">logos</div></a>
-		<a href=""><div class="designexamples" id="logos3">logos</div></a>
-		<a href=""><div class="designexamples" id="icons">icons</div></a>
+		<a href=""><div class="designexamples" id="logos1"><div class="designname">logos</div></div></a>
+		<a href=""><div class="designexamples" id="logos2"><div class="designname">logos</div></div></a>
+		<a href=""><div class="designexamples" id="logos3"><div class="designname">logos</div></div></a>
+		<a href=""><div class="designexamples" id="icons"><div class="designname">icons</div></div></a>
 	</div>
-</section>
+</div>
 <!--Slide 1 end-->
 
 <!--Slide 2 start-->
-<section class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-	<h2>Who am I?</h2>
+<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+	<h2 class="slideno">Who am I?</h2>
 	<ol type="a">
 		<li>Siraj Bentria</li>
 		<li>Designer</li>
@@ -81,31 +81,31 @@
 	</ol>
 	<img src="img/siraj.jpg" alt="Siraj Bentria is an awesome dude.">
 	<h3 class="dee"><div id="doo">d</div>.</h3><h3 class="above">All of the Above</h3>
-</section>
+</div>
 
 <!--Slide 2 end-->
 
 <!--Slide 3 start-->
-<section class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
-	<h2>A Few of My Fav Things:</h2>
+<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+	<h2 class="slideno">A Few of My Fav Things:</h2>
 	<img src="img/fav1.jpg" alt="Tangier, Morrocco" id="fav1">
 	<img src="img/fav2.jpg" alt="Art history" id="fav2">
 	<img src="img/fav3.jpg" alt="Tea and Foods" id="fav3">
 	<img src="img/fav4.jpg" alt="Minimalist design" id="fav4">
 	<img src="img/fav5.jpg" alt="Environmental planning and design" id="fav5">
-</section>
+</div>
 <!--Slide 3 end-->
 
 <!--Slide 4 start-->
-<section class="slide" id="slide4" data-slide="1" data-stellar-background-ratio="0.5">
-	<h2>Still Don't Think I'm Cool</h2>
+<div class="slide" id="slide4" data-slide="1" data-stellar-background-ratio="0.5">
+	<h2 class="slideno">Still Don't Think I'm Cool</h2>
 	<div class="wrapper">
 		<a href=""><img src="img/facebook.png" alt="Facebook link"></a>
 		<a href=""><img src="img/Twitter.png" alt="Twitter link"></a>
 		<a href=""><img src="" alt=""></a>
 	</div>
 	<p class="followup">...let's connect!</p>
-</section>
+</div>
 <!--Slide 4 end-->
 
 <footer>
@@ -114,6 +114,11 @@
 
 <script>
 //Add code to put logo onto active page
+$('.designexamples').hover( function() {
+	$(this).children('.designname').css('visibility', 'visible');
+}, function() {
+	$(this).children('.designname').css('visibility', 'hidden');
+})
 </script>
 
 </body>
