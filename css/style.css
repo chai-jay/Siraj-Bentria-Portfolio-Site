@@ -241,8 +241,6 @@ nav .navbutton {
 #whoami img {
     width: 100%;
     height: auto;
-    margin-top: -2%;
-    margin-bottom: -5%;
 }
 
 /*
@@ -261,23 +259,33 @@ nav .navbutton {
 }
 
 #blackoutsunrise {
-
+    font-family: 'onyxregular';
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 #trackregular {
-
+    font-family: 'onyxregular';
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 #lovelolinelight {
-
+    font-family: 'onyxregular';
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 #canterboldstrips {
-
+    font-family: 'onyxregular';
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 #loveloblack {
-
+    font-family: 'onyxregular';
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 #onyxregular {
