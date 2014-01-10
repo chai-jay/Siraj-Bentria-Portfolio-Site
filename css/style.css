@@ -330,7 +330,7 @@ nav .navbutton {
 #slide3 h2 {
     font-family: 'kenzoregular';
     font-size: 2.5em;
-    color: white;
+    color: black;
     text-shadow:
     -1px -1px 0 #4B72EE,
     1px -1px 0 #4B72EE,
@@ -398,7 +398,12 @@ nav .navbutton {
 }*/
 
 #favlist {
-    
+    width: 60%;
+}
+
+#favlist img {
+    width: 100%;
+    height: auto;
 }
 
 /*
