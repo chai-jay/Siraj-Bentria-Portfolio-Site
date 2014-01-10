@@ -36,18 +36,16 @@ header {
 }
 
 .banner {
-    width: 33.333%;
+    width: 16%;
     margin: 0 auto; /*1st=top/bot 2nd=left+right*/
     padding: 70px 0;
     text-align: center;
 }
 
-.banner h1 {
-    background: url('../img/header/sblogoforwebfinal.png') no-repeat;
-    width: 308px;
-    height: 273px;
-    background-size: cover;
-    background-position: center; /*Need to fiz the PNG file so it's the right size and centered*/
+.banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p#designword {
