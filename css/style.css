@@ -339,9 +339,10 @@ nav .navbutton {
     display: inline;
     float: left;
     overflow: hidden;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 3%;
     margin-right: 3%;
+    width: 34%;
 }
 
 /*#favlist {
@@ -399,6 +400,8 @@ nav .navbutton {
 
 #favlist {
     width: 60%;
+    display: inline;
+    float: left;
 }
 
 #favlist img {
