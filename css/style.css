@@ -319,6 +319,7 @@ nav .navbutton {
     width: 100%;
     height: auto;
     overflow: hidden;
+    background: url('../img/slide3/dark_wall.png');
 }
 #slide3 div {
 }
