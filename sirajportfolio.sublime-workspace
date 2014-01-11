@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"r",
+				"rgb()"
+			],
+			[
+				"spac",
+				"letter-spacing"
+			],
+			[
+				"canter",
+				"canterbold_strips"
+			],
+			[
+				"lovelo",
+				"loveloline_light"
+			],
+			[
+				"black",
+				"blackoutsunrise"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
 				"gallon",
 				"gallon_price"
 			],
@@ -30,10 +58,6 @@
 			[
 				"backgroun",
 				"background-position"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"background",
@@ -76,18 +100,18 @@
 	"buffers":
 	[
 		{
-			"file": "css/style.css",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3850,
+				"buffer_size": 5227,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/Chai/Desktop/Diabace Sample Homepage/css/grid.css",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 1068,
+				"buffer_size": 9467,
 				"line_ending": "Unix"
 			}
 		},
@@ -96,14 +120,6 @@
 			"settings":
 			{
 				"buffer_size": 497,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/jquery.stellar.js",
-			"settings":
-			{
-				"buffer_size": 23077,
 				"line_ending": "Unix"
 			}
 		}
@@ -144,6 +160,10 @@
 	},
 	"file_history":
 	[
+		"/Users/Chai/Desktop/Siraj Bentria Portfolio Site/js/jquery.stellar.js",
+		"/Users/Chai/Desktop/webfontkit-20140110-163705/stylesheet.css",
+		"/Users/Chai/Desktop/webfontkit-20140110-163608/stylesheet.css",
+		"/Users/Chai/Desktop/Diabace Sample Homepage/css/grid.css",
 		"/Users/Chai/Desktop/Diabace Sample Homepage/js/scripts.js",
 		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/cssdivider.sublime-snippet",
 		"/Users/Chai/Desktop/Siraj Bentria Portfolio Site/css/unsemantic-grid-responsive.css",
@@ -251,6 +271,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"2",
+			"000",
+			"url('",
+			"div id",
+			"<li>",
+			"</li>",
+			"whoami",
 			"section",
 			"display: inline",
 			"<a href=\"\">",
@@ -315,19 +342,48 @@
 			[
 				{
 					"buffer": 0,
-					"file": "css/style.css",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3850,
+						"buffer_size": 5227,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3845,
-								3845
+								4862,
+								4862
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2066.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9440,
+								9440
 							]
 						],
 						"settings":
@@ -337,35 +393,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3476.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/Chai/Desktop/Diabace Sample Homepage/css/grid.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1068,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8184.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -397,35 +425,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/jquery.stellar.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23077,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2566,
-								2569
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
