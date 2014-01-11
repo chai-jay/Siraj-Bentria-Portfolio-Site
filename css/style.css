@@ -322,15 +322,12 @@ nav .navbutton {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background: url('../img/slide3/dark_wall.png');
-}
-#slide3 div {
 }
 
 #slide3 h2 {
     font-family: 'kenzoregular';
     font-size: 2.5em;
-    color: black;
+    color: white;
     text-shadow:
     -1px -1px 0 #4B72EE,
     1px -1px 0 #4B72EE,
@@ -339,7 +336,7 @@ nav .navbutton {
     display: inline;
     float: left;
     overflow: hidden;
-    margin-top: 15%;
+    margin-top: 25%;
     margin-left: 3%;
     margin-right: 3%;
     width: 34%;
@@ -402,6 +399,7 @@ nav .navbutton {
     width: 60%;
     display: inline;
     float: left;
+    background: url('../img/slide3/dark_wall.png');
 }
 
 #favlist img {
