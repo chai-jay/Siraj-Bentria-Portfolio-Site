@@ -103,7 +103,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5227,
+				"buffer_size": 5252,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 9467,
+				"buffer_size": 10051,
 				"line_ending": "Unix"
 			}
 		},
@@ -160,6 +160,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Chai/Desktop/webfontkit-20140110-214106/stylesheet.css",
 		"/Users/Chai/Desktop/Siraj Bentria Portfolio Site/js/jquery.stellar.js",
 		"/Users/Chai/Desktop/webfontkit-20140110-163705/stylesheet.css",
 		"/Users/Chai/Desktop/webfontkit-20140110-163608/stylesheet.css",
@@ -271,6 +272,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"url('",
 			"2",
 			"000",
 			"url('",
@@ -337,7 +339,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -346,15 +348,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5227,
+						"buffer_size": 5252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4862,
-								4862
+								4795,
+								4795
 							]
 						],
 						"settings":
@@ -363,10 +365,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2066.0,
+						"translation.y": 1795.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -375,15 +377,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9467,
+						"buffer_size": 10051,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7296,
-								7296
+								9931,
+								9931
 							]
 						],
 						"settings":
@@ -393,10 +395,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5948.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
