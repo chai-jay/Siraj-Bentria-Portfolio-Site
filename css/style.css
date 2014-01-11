@@ -418,12 +418,13 @@ nav .navbutton {
     height: auto;
     overflow: hidden;
     background: url('../img/slide4/wall.png');
-    clear: left;font-family: 'bebas_neueregular';
-    color: #F6E610;
+    clear: left;
 }
 
 #slide4 h2 {
     text-transform: uppercase;
+    font-family: 'kenzoregular';
+    color: #F6E610;
     font-size: 2.5em;
     font-weight: 100;
     text-align: center;
@@ -455,10 +456,14 @@ nav .navbutton {
 
 #followup {
     clear: left;
+    color: #F6E610;
     text-align: right;
-    text-decoration: none;
     font-size: 2em;
     text-transform: lowercase;
     margin-top: 3%;
     margin-right: 3%;
+}
+
+#slide4 a {
+    text-decoration: none;
 }
