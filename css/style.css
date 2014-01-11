@@ -416,5 +416,10 @@ nav .navbutton {
 */
 
 #slide4 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: url('../img/slide4/wall.png');
     clear: left;
 }
+
