@@ -101,8 +101,10 @@
     display: none;
 }
 
-body {
-
+.slide {
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
 }
 
 /*
@@ -155,7 +157,7 @@ p#designword {
     color: white;
     text-decoration: none;
     position: relative;
-    top: 37.5%;
+    top: 40%;
 }
 
 #am {
@@ -189,6 +191,7 @@ nav {
     width: 100%;
     position: fixed;
     top: 2%;
+    z-index: 1;
 }
 
 nav ul {
@@ -204,6 +207,7 @@ nav li {
     height: 25px;
     text-indent: -99999px;
 }
+
 
 /*nav ul .navbutton {
     display: inline;
@@ -237,6 +241,11 @@ nav .navbutton {
     height: 100%;
 }
 
+.active, .nav li:hover {
+    cursor: pointer;
+    /*Add active part of site css*/
+}
+
 /*
 ******************
 * =Slide1
@@ -258,10 +267,6 @@ nav .navbutton {
     margin-top: 8%;
     margin-bottom: 3%;
     text-decoration: underline;
-}
-
-#slide div {
-    display: inline;
 }
 
 .designcontainer {
@@ -293,6 +298,10 @@ nav .navbutton {
 .designname {
     padding-top: 40%;
     visibility: hidden;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    transition: all .1s ease-in;
     font-family: 'helvetica nueue';
     font-size: 1.533em;
     font-weight: 100;
@@ -348,7 +357,7 @@ nav .navbutton {
     display: inline;
     float: left;
     overflow: hidden;
-    margin-top: 30%;
+    margin-top: 27.5%;
     margin-left: 3%;
     margin-right: 3%;
     width: 34%;

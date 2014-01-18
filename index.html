@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="description" content="" /> <!--Put a short paragraph to display for search engine results-->
 	<meta name="keywords" content="" /> <!--Put a short list of possible search engine key words that will help find your site-->
-	<link rel="shortcut icon" href="img/favicon1.ico" /> <!--16px X 16px png file saved as .ico format for favorites icon-->
+	<link rel="shortcut icon" href="img/favicon.ico" /> <!--16px X 16px png file saved as .ico format for favorites icon-->
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/text.css" />
 	<link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive.css" />
@@ -12,8 +12,8 @@
 	<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/js.js"></script>
-	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.js"></script>
+	<!--<script type="text/javascript" src="js/waypoints.js"></script>-->
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<title>Siraj Bentria: All of the Above</title>
 </head>
@@ -44,16 +44,16 @@
 <!--Nav start-->
 <nav>
 	<ul> 
-		<li><a href=""><div class="navbutton">Some Things I've Designed</div></a></li>
-		<li><a href=""><div class="navbutton">Who Am I?</div></a></li>
-		<li><a href=""><div class="navbutton">A Few of My Fav Things</div></a></li>
-		<li><a href=""><div class="navbutton">Still Don't Think I'm Cool</div></a></li>
+		<li data-slide="1"><div class="navbutton">Some Things I've Designed</div></li>
+		<li data-slide="2"><div class="navbutton">Who Am I?</div></li>
+		<li data-slide="3"><div class="navbutton">A Few of My Fav Things</div></li>
+		<li data-slide="4"><div class="navbutton">Still Don't Think I'm Cool</div></li>
 	</ul>
 </nav>
 <!--Nav end-->
 
 <!--Slide 1 start-->
-<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.1">
+<section class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.1">
 	<h2>Some Things I've Designed:</h2>
 	<div class="designcontainer">
 		<a href=""><div class="designexamples" id="diabace"><div class="designname">Diabace</div></div></a>
@@ -67,11 +67,11 @@
 		<a href=""><div class="designexamples" id="logos3"><div class="designname">logos</div></div></a>
 		<a href=""><div class="designexamples" id="icons"><div class="designname">icons</div></div></a>
 	</div>
-</div>
+</section>
 <!--Slide 1 end-->
 
 <!--Slide 2 start-->
-<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+<section class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.1">
 	<h2 class="hidethis">Who am I?</h2>
 	<ol type="a" class="hidethis">
 		<li>Siraj Bentria</li>
@@ -81,12 +81,12 @@
 	</ol>
 	<h3 class="hidethis">d. All of the Above</h3>
 	<div id="whoami"><img src="img/slide2/whoamiimages.png" alt="Who is Siraj Bentria?"></div>
-</div>
+</section>
 
 <!--Slide 2 end-->
 
 <!--Slide 3 start-->
-<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+<section class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.1">
 	<h2>A Few of My Fav Things</h2>
 	<div id="favlist">
 		<img src="img/slide3/myfavoritethingsimages.png" alt="List of my favorite things">
@@ -97,11 +97,11 @@
 		<div id="loveloblack">5. Ebeneezer Howard's Diagram #5</div>
 		<div id="onyxregular">6. Mac and cheese</div> -->
 	</div>
-</div>
+</section>
 <!--Slide 3 end-->
 
 <!--Slide 4 start-->
-<div class="slide" id="slide4" data-slide="1" data-stellar-background-ratio="0.5">
+<section class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.1">
 	<h2>Still Don't Think I'm Cool...</h2>
 	<div id="socialmedia">
 		<a href=""><img src="img/slide4/facebook.png" alt="Facebook link"></a>
@@ -109,15 +109,18 @@
 		<a href=""><img src="img/slide4/LinkedIn.png" alt="LinkedIn profile"></a>
 	</div>
 	<a href="mailto: sir46aj@gmail.com"><p id="followup">...let's connect!</p></a>
-</div>
+</section>
 <!--Slide 4 end-->
 
 <footer>
 <!--Legal stuff-->
 </footer>
 
-<script>
-//Add code to put logo onto active page
+<script type="text/javascript">
+	//Add code to put logo onto active page
+</script>
+<script type="text/javascript">
+//jQuery to show design example names when mouseover
 $('.designexamples').hover( function() {
 	$(this).children('.designname').css('visibility', 'visible');
 }, function() {
