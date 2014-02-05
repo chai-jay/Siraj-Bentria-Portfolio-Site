@@ -103,7 +103,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5252,
+				"buffer_size": 5502,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,7 +111,15 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 10051,
+				"buffer_size": 10340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/js.js",
+			"settings":
+			{
+				"buffer_size": 1129,
 				"line_ending": "Unix"
 			}
 		},
@@ -160,6 +168,12 @@
 	},
 	"file_history":
 	[
+		"/Users/Chai/Documents/Z past semesters/Fall 2011/BME Numerical Modeling/Project/nummodproject.m",
+		"/Users/Chai/Documents/Resumes & Etc/Portfolio Jing Chai/diabACE (MAMP stack req)/treatmenttool.php",
+		"/Users/Chai/Documents/Resumes & Etc/Portfolio Jing Chai/diabACE (MAMP stack req)/treatmenttool.html",
+		"/Users/Chai/Documents/Resumes & Etc/Portfolio Jing Chai/diabACE (MAMP stack req)/includes/classdef.php",
+		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Chai/Desktop/Siraj Bentria Portfolio Site/js/waypoints.js",
 		"/Users/Chai/Desktop/webfontkit-20140110-214106/stylesheet.css",
 		"/Users/Chai/Desktop/Siraj Bentria Portfolio Site/js/jquery.stellar.js",
 		"/Users/Chai/Desktop/webfontkit-20140110-163705/stylesheet.css",
@@ -242,7 +256,6 @@
 		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/cssheader.sublime-snippet",
 		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/htmlheader.sublime-snippet",
 		"/Applications/MAMP/htdocs/first.php",
-		"/Users/Chai/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Applications/League of Legends.app/Contents/LOL/RADS/projects/lol_air_client/releases/0.0.0.77/deploy/bin/preferences/global/global.properties",
 		"/Applications/League of Legends.app/Contents/LOL/RADS/projects/lol_air_client/releases/0.0.0.77/deploy/bin/lol.properties",
 		"/Applications/MAMP/htdocs/second.php",
@@ -272,6 +285,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"links",
+			"nav",
+			".navigation",
+			"background-ratio=",
+			"#slide",
+			"ease-in;",
+			"2s",
+			"linear",
+			"37.5",
+			"50",
 			"url('",
 			"2",
 			"000",
@@ -348,15 +371,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5252,
+						"buffer_size": 5502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4795,
-								4795
+								567,
+								567
 							]
 						],
 						"settings":
@@ -365,7 +388,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1795.0,
+						"translation.y": 27.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -377,15 +400,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10051,
+						"buffer_size": 10340,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9931,
-								9931
+								0,
+								10340
 							]
 						],
 						"settings":
@@ -395,14 +418,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1928.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "js/js.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1129,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "Colors and font types.txt",
 					"semi_transient": false,
 					"settings":
@@ -426,7 +479,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -480,7 +533,7 @@
 		[
 			[
 				"",
-				"Chapter 4/fourth.php"
+				"css/style.css"
 			]
 		],
 		"width": 0.0
