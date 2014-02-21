@@ -362,7 +362,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -378,8 +378,8 @@
 						"selection":
 						[
 							[
-								567,
-								567
+								802,
+								692
 							]
 						],
 						"settings":
@@ -388,10 +388,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 27.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -407,8 +407,16 @@
 						"selection":
 						[
 							[
-								0,
-								10340
+								6671,
+								6776
+							],
+							[
+								7041,
+								6835
+							],
+							[
+								7402,
+								7043
 							]
 						],
 						"settings":
@@ -418,10 +426,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1928.0,
+						"translation.y": 8183.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -451,7 +459,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -479,7 +487,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
